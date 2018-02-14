@@ -1,5 +1,5 @@
 const expect = require('expect');
-const config = require(`${process.cwd()}/classes/config`);
+const config = require(`${process.cwd()}/src/classes/config`);
 
 describe('Config', () => {
     it('existing file with existing value', function () {
