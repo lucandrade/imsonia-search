@@ -14,4 +14,8 @@ describe('Config', () => {
     it('missing file', function () {
         expect(config('missingfile.lang', 123)).toBe(123);
     });
+
+    it('environment', function () {
+        expect(config('env')).toBe('test');
+    });
 });

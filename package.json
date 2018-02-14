@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "test:unit": "NODE_ENV=test mocha test/unit/**/*.js"
+    "test:unit": "export NODE_ENV=test || SET NODE_ENV=test && mocha test/unit/**/*.js"
   },
   "author": "Lucas Andrade",
   "license": "ISC",

@@ -1,5 +1,8 @@
 const fs = require('fs');
 const cache = {};
+const vars = {
+    env: process.env.NODE_ENV || 'development'
+};
 
 function loadPath(data, parts) {
     if (parts.length < 1) {
@@ -42,20 +45,15 @@ function getFile(filename) {
 
 function config(path, defaultValue = null) {
     const parts = path.split('.');
-    
-    if (parts.length < 2) {
-        return defaultValue;
-    }
 
     const file = getFile(parts.shift());
 
-    if (!file) {
-        return defaultValue;
+    if (file) {
+        const data = loadPath(file, parts);
+        return data || defaultValue;
     }
 
-    const data = loadPath(file, parts);
-
-    return data || defaultValue;
+    return vars[path] || defaultValue;
 }
 
 module.exports = config;
