@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
 const path = require('path');
 const fs = require('fs');
-const config = require('./classes/config');
+const config = require('./helpers/config');
 
 let database = null;
 
