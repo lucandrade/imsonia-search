@@ -10,3 +10,5 @@ switch (env) {
         require('dotenv').load();
         break;
 }
+
+global.datasource = require(`${process.cwd()}/src/datasource`)();
