@@ -15,4 +15,6 @@ describe('Model: Podcast', () => {
         await podcast.save();
         expect(podcast.name).toBe('some-name');
     });
+
+    // TODO: create test listing more than one podcast
 });
