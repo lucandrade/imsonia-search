@@ -12,3 +12,4 @@ switch (env) {
 }
 
 global.datasource = require(`${process.cwd()}/src/datasource`)();
+global.expect = require('expect');

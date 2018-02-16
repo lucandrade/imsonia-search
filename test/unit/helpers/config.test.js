@@ -1,7 +1,6 @@
-const expect = require('expect');
 const config = require(`${process.cwd()}/src/helpers/config`);
 
-describe('Config', () => {
+describe('Helper: Config', () => {
     it('existing file with existing value', function () {
         process.env.PORT = 124;
         expect(config('app.port')).toBe(process.env.PORT);

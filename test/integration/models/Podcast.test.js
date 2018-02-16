@@ -1,5 +1,3 @@
-const expect = require('expect');
-
 describe('Model: Podcast', () => {
     afterEach(async function () {
         await datasource.models.Podcast.remove({});
