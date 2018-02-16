@@ -6,9 +6,9 @@
   "scripts": {
     "start": "node start",
     "seed": "node database/seed.js",
-    "test": "export NODE_ENV=test || SET NODE_ENV=test && mocha --opts test/mocha.opts test/**/**/*.js",
-    "test:unit": "export NODE_ENV=test || SET NODE_ENV=test && mocha --opts test/mocha.opts test/unit/**/*.js",
-    "test:integration": "export NODE_ENV=test || SET NODE_ENV=test && mocha --opts test/mocha.opts test/integration/**/*.js"
+    "test": "npm run test:unit && npm run test:integration",
+    "test:unit": "export NODE_ENV=test || SET NODE_ENV=test && mocha --opts test/unit/mocha.opts test/unit/**/*.js",
+    "test:integration": "export NODE_ENV=test || SET NODE_ENV=test && mocha --opts test/integration/mocha.opts test/integration/**/*.js"
   },
   "author": "Lucas Andrade",
   "license": "ISC",

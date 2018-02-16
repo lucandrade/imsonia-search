@@ -1,4 +1,4 @@
---require test/setup.js
+--require test/unit/setup.js
 --reporter spec
 --slow 5000
 --exit
