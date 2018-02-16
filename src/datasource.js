@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
 const path = require('path');
 const fs = require('fs');
-const config = require('./helpers/config');
+const config = require('config-loader')().path(`${process.cwd()}/src/config`);
 
 let database = null;
 

@@ -19,7 +19,8 @@
     "helmet": "^3.11.0",
     "http-status": "^1.0.1",
     "mongoose": "^5.0.5",
-    "mongoose-paginate": "^5.0.3"
+    "mongoose-paginate": "^5.0.3",
+    "config-loader": "https://github.com/lucandrade/config-loader"
   },
   "devDependencies": {
     "eslint": "^4.17.0",
