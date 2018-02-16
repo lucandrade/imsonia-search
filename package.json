@@ -16,11 +16,11 @@
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.18.2",
-    "config-loader": "https://github.com/lucandrade/config-loader",
     "dotenv": "^5.0.0",
     "express": "^4.16.2",
     "helmet": "^3.11.0",
     "http-status": "^1.0.1",
+    "konfig-loader": "^1.0.0",
     "lodash": "^4.17.5",
     "mongoose": "^5.0.5",
     "mongoose-paginate": "^5.0.3"
