@@ -15,6 +15,18 @@ const Schema = mongoose.Schema({
     }
 });
 
+Schema.set('toJSON', {
+    transform: function episodeSchemaToJson(doc, ret) {
+        const retJson = {
+            id: ret._id,
+            description: ret.description,
+            url: ret.url,
+            podcast: ret.podcast,
+        };
+        return retJson;
+    },
+});
+
 Schema.plugin(paginate);
 
 const Episode = mongoose.model('Episode', Schema);
