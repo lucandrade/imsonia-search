@@ -1,0 +1,54 @@
+[
+    {
+        "name": "Nerdcast",
+        "url": "https://jovemnerd.com.br",
+        "episodes": [
+            {
+                "description": "Aquele Tipinho de Pessoa 2",
+                "url": "https://nerdcast.jovemnerd.com.br/nerdcast_576_tipinho_de_pessoa_2.mp3"
+            },
+            {
+                "description": "Situações Absurdas",
+                "url": "https://nerdcast.jovemnerd.com.br/nerdcast_569_situacoes_absurdas.mp3"
+            },
+            {
+                "description": "Falando mal do Whatsapp",
+                "url": "https://nerdcast.jovemnerd.com.br/nerdcast_538_whatsapp.mp3"
+            },
+            {
+                "description": "A pergunta é: por quê?!",
+                "url": "https://nerdcast.jovemnerd.com.br/nerdcast_540_por_que.mp3"
+            },
+            {
+                "description": "Barba, Cabelo, Bigode e …Sobrancelha?!?",
+                "url": "https://nerdcast.jovemnerd.com.br/nerdcast_422_vaidade.mp33"
+            }
+        ]
+    },
+    {
+        "name": "The Art of Manliness",
+        "url": "https://www.artofmanliness.com/",
+        "episodes": [
+            {
+                "description": "#270: Becoming a Tactical Athlete",
+                "url": "http://feeds.soundcloud.com/stream/303243072-artofmanliness-270-becoming-a-tactical-athlete.mp3"
+            },
+            {
+                "description": "#275: How Your Climate-Controlled Comfort Is Killing You",
+                "url": "http://feeds.soundcloud.com/stream/305609409-artofmanliness-275-what-doesnt-kills-us-and-the-science-of-cold-exposure.mp3"
+            },
+            {
+                "description": "#285: The Real Science of Nutrition and Supplements",
+                "url": "http://feeds.soundcloud.com/stream/311589485-artofmanliness-285-the-real-science-of-nutrition-and-supplements.mp3"
+            },
+            {
+                "description": "#294: Learning the Art of Charm",
+                "url": "http://feeds.soundcloud.com/stream/317216176-artofmanliness-294-learning-the-art-of-charm.mp3"
+            },
+            {
+                "description": "#301: Why Action Is the Answer",
+                "url": "http://feeds.soundcloud.com/stream/321007875-artofmanliness-301-the-wisdom-of-action.mp3"
+            }
+        ]
+    }
+]
