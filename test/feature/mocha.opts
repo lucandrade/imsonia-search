@@ -1,0 +1,4 @@
+--require test/feature/setup.js
+--reporter spec
+--slow 5000
+--exit

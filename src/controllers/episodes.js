@@ -12,7 +12,7 @@ class Episodes {
             const episodes = await this.model.paginate({
                 
             }, {
-                page: _.get(req.params.page, 1),
+                page: _.get(req, 'params.page', 1),
                 populate: 'podcast'
             });
             return res.send(response.success(episodes));
