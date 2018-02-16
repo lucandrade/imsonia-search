@@ -4,7 +4,7 @@ const datasource = require('../src/datasource')();
 
 async function seed() {
     await datasource.models.Podcast.remove({});
-    await datasource.models.Podcast.remove({});
+    await datasource.models.Episode.remove({});
 
     let podcast;
     let episode;
